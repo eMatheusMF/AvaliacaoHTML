@@ -55,7 +55,6 @@
             font-weight: lighter;
         }
         #azul2{
-            display: flex;
             position: fixed;
             height: 40px;
             width: 100%;
@@ -64,10 +63,27 @@
         }
         .titulo{
             position: relative;
+            display: flex;
             font-family: Arial, Helvetica, sans-serif;
+            margin-top: 6px;
             font-size: 13px;
-            left: 100px;
             color: #ffffff;
+        }
+        .one{
+            float: left;
+            left: 100px;
+        }
+        .two{
+            height: 30px;
+            width: 30px;
+            float: left;
+            left: 930px;
+            margin-top: 0px;
+        }
+        .three{
+            float: right;
+            right: 120px;
+            margin-top: -24px;
         }
         .icon{
             position: relative;
@@ -159,11 +175,11 @@
     </div>
 
     <div id="azul2">
-            <div class="azul2 titulo">
-                <div class="titulo 1">Clima e Previsão do Tempo</div>
-                <div class="titulo 2">
+            <div class="titulo">
+                <div class="titulo one">Clima e Previsão do Tempo</div>
+                <div class="titulo two"><img src="https://www.climatempo.com.br/dist/images/v2/svg/outline/3n.svg"></div>
                 </div>
-                <div class="titulo 3">São Paulo, SP / 23°</div>
+                <div class="titulo three">São Paulo, SP / 20°</div>
             </div>
     </div>
     <div class="branco um">
